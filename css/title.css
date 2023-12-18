@@ -1,0 +1,47 @@
+#title {
+  height: 100%;
+  background-color: white;
+  max-width: 1720px;
+  margin: 0 auto;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0 0 10px #ccc;
+  min-height: 600px;
+  background-image: 
+    url(../img/logo.svg), url(../img/titleback.svg);
+  background-repeat: no-repeat;
+  background-position-y: 254px,105%;
+  background-position-x: 800px,center;
+  background-size: 40%,100%;
+  position: relative;
+}
+#title .wrap {
+  height: 100%;
+}
+#title .wrap hgroup {
+  
+}
+#title .wrap hgroup h2 {
+  
+  color: #3abcee;
+  font-weight: 600;
+}
+#title .wrap hgroup h3 {
+  
+  font-weight: 800;
+  line-height: 1.2;
+  color: #363636;
+}
+#title::after{
+  content: "";
+   background-image: 
+   url(../img/girl.png);
+   background-repeat: no-repeat;
+   background-position-y: 0%;
+   background-position-x: 82%;
+   background-size: contain;
+  width: 655px;
+  height: 877px;
+  display: block;
+  position: absolute;
+  right: 148px;
+  bottom: -115px;

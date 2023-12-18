@@ -1,0 +1,72 @@
+section#dash {
+  background-color: white;
+  position: relative;
+  padding-bottom: 100px;
+}
+section#dash .wrap {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 83px;
+}
+section#dash .wrap hgroup {
+  
+}
+section#dash .wrap hgroup h2 {
+  
+  color: #959595;
+  font-weight: 800;
+  font-size: 33px;
+}
+section#dash .wrap hgroup h3 {
+  
+  line-height: 1.5;
+  color: #363636;
+  font-weight: 800;
+  margin-bottom: 15px;
+  font-size: 100px;
+}
+section#dash .wrap p {
+  
+  color: #959595;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+section#dash .wrap> span {
+  
+  margin-top: 40px;
+}
+section#dash .wrap span a {
+  
+  margin-bottom: 10px;
+}
+
+section#dash .wrap ul {
+  grid-column: 2;
+  grid-row: 1 / sapn 5;
+  overflow: hidden;
+  align-items: center;
+  gap: 30px;
+}
+section#dash .wrap ul li:not(:first-child) {
+      /*! transform: scale(0.6); */
+  width: 235px;
+  height: 148px;
+  margin-left: 80px;
+  border-radius: 30px;
+  background-color: #eee;
+}
+
+section#dash .wrap ul li> img {
+  box-shadow: 5px -5px 20px #ccc;
+}
+section#dash::after {
+content: "";
+  width: 1810px;
+  height: 324px;
+  display: block;
+  background-color: #efefef;
+  border-radius: 0px 30px 30px 0px;
+  position: absolute;
+  left: 0;
+  bottom: 107px;
+}
